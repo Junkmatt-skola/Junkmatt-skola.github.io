@@ -1,3 +1,20 @@
 body {
-    color: lawngreen;
+    background-color: lawngreen;
+    padding: 2rem 4rem;
+}
+table {
+    border: blue solid 2px;
+    border-collapse: collapse;
+    box-shadow: 5px 5px black;
+    text-align: center;
+}
+th,td {
+    border: 1px solid black;
+    padding: 50px 75px;
+}
+thead {
+    color: red;
+}
+tfoot {
+    color: blue;
 }
